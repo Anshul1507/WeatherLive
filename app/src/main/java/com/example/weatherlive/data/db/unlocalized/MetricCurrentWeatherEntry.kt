@@ -2,7 +2,7 @@ package com.example.weatherlive.data.db.unlocalized
 
 import androidx.room.ColumnInfo
 
-class CurrentWeatherEntry (
+class MetricCurrentWeatherEntry (
     @ColumnInfo(name = "temperature")
     override val temperature: Double,
     @ColumnInfo(name = "weather_descriptions")
