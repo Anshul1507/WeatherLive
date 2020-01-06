@@ -2,11 +2,11 @@ package com.example.weatherlive.data.db.unlocalized
 
 interface UnitSpecificCurrentWeatherEntry {
     val temperature: Double
-    val weatherDesc: String
-    val weaatherIcon: String
+    val weatherDesc: List<String>
+    val weatherIcon: List<String>
     val windSpeed: Double
     val windDirection: String
-    val precipitationVoulme: Double
+    val precipitationVolume: Double
     val feelsLikeTemperature: Double
     val visibilityDistance: Double
 }
